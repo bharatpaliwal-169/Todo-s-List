@@ -1,0 +1,21 @@
+header{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-center{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form{
+  border: transparent;
+  border-radius: 15px;
+  background: #dde8e9;
+  box-shadow:  8px 8px 19px #c9d3d4, 
+              -8px -8px 19px #f1fdfe;
+    
+}
