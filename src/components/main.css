@@ -1,21 +1,17 @@
-header{
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.banner-center{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .form{
   border: transparent;
   border-radius: 15px;
-  background: #dde8e9;
+  background: #dde8e9!important;
   box-shadow:  8px 8px 19px #c9d3d4, 
               -8px -8px 19px #f1fdfe;
-    
+  
 }
+.list-group-item{
+  background: #dde8e9!important;
+  padding-top: 0.1rem!important;
+  padding-bottom: 0.1rem!important;
+}
+.headp{
+  padding-top: 2rem!important;
+}
+
