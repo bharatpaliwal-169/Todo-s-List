@@ -1,17 +1,23 @@
 .form{
   border: transparent;
-  border-radius: 15px;
+  border-radius: 5px;
   background: #dde8e9!important;
-  box-shadow:  8px 8px 19px #c9d3d4, 
-              -8px -8px 19px #f1fdfe;
-  
+  box-shadow:  4px 4px 10px #c9d3d4, 
+              -4px -4px 10px #f1fdfe;
+  padding-bottom: 1.5rem;
 }
 .list-group-item{
   background: #dde8e9!important;
   padding-top: 0.1rem!important;
   padding-bottom: 0.1rem!important;
+  margin: 0.2rem;
+  border: transparent!important;
+  box-shadow:  2px 2px 5px #c9d3d4, 
+              -2px -2px 5px #d9e4e5;
 }
 .headp{
   padding-top: 2rem!important;
 }
-
+.alert{
+  padding-bottom: 0.1rem!important;
+}

@@ -3,7 +3,9 @@ import Main from './components/Main'
 
 function App() {
   return (
-    <Main />
+    <React.Fragment>
+      <Main />
+    </React.Fragment>
     );
 }
 
