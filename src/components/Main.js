@@ -91,7 +91,7 @@ export default function Main() {
             
             <form className='form text-center' onSubmit={handleSubmit}>
 
-              <h4 className='display-5 fw-3  mb-4 headp'> Shopping Bud </h4>
+              <h4 className='display-5 fw-3  mb-4 headp'> Task List </h4>
               <TextField id="item"
                           label="add your item"
                           variant="outlined"
