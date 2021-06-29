@@ -100,7 +100,7 @@ export default function Main() {
                           size="small"
                           value={name}
                           onChange={(e)=> setName(e.target.value)}/>
-              <Button variant='contained' type='submit' color='primary' size="medium" className='ml-4'>
+              <Button variant='contained' type='submit' color='primary' size="medium" className='ml-2 mt-1'>
                 {isEditing ? 'Edit' : 'Add'} 
               </Button>
 

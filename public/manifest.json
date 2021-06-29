@@ -1,14 +1,9 @@
 {
-  "short_name": "Task List App",
-  "name": "Task List",
+  "short_name": "Task List",
+  "name": "Task List App",
   "icons": [
     {
-      "src": "./images/logo.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "./images/icon.jpg",
+      "src": "./images/main_logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
