@@ -91,7 +91,8 @@ export default function Main() {
             
             <form className='form text-center' onSubmit={handleSubmit}>
 
-              <h4 className='display-5 fw-3  mb-4 headp'> Task List </h4>
+              <h4 className='headp'> Tasks List </h4>
+
               <TextField id="item"
                           label="add your item"
                           variant="outlined"
@@ -99,7 +100,9 @@ export default function Main() {
                           size="small"
                           value={name}
                           onChange={(e)=> setName(e.target.value)}/>
-              <Button variant='contained' type='submit' color='primary' size="medium"> {isEditing ? 'Edit' : 'Add'} </Button>
+              <Button variant='contained' type='submit' color='primary' size="medium" className='ml-4'>
+                {isEditing ? 'Edit' : 'Add'} 
+              </Button>
 
               {list.length > 0 && (
                       <div className='mb-2'>

@@ -2,16 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A simple React application which keeps record of your small list items"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="description" content="A PWA React application which keeps record of your todos."/>
+    <meta name="theme-color" content="#ffffff" />
+    <meta content="Task,List,Todo" name="keywords">
+    <meta property="og:title" content="Task List">
+    <meta property="og:image" content="./images/logo.png">
+    <meta property="og:url" content="https://task-list23.netlify.app/">
+    <meta property="og:site_name" content="task-list23.netlify.app">
+    <meta property="og:description" content="This is a PWA React application that stores the list of all important tasks">
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://task-list23.netlify.app/">
+    <meta name="twitter:title" content="Task List">
+    <meta name="twitter:description" content="This is a PWA React application that stores the list of all important tasks">
+    <meta name="twitter:image" content="./images/logo.png">
+
+    <link rel="apple-touch-icon" href="./images/icon.jpg" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title> Task-List </title>
+    <title>Task List</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceworker.js')
+                .then((reg) => console.log('Success: ', reg.scope))
+                .catch((err) => console.log('Failure: ', err));
+        })
+      }
+    </script>
   </body>
 </html>

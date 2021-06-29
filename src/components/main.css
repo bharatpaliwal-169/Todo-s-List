@@ -16,7 +16,12 @@
               -2px -2px 5px #d9e4e5;
 }
 .headp{
-  padding-top: 2rem!important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 1px;
 }
 .alert{
   padding-bottom: 0.1rem!important;
