@@ -91,10 +91,10 @@ export default function Main() {
             
             <form className='form text-center' onSubmit={handleSubmit}>
 
-              <h4 className='headp'> Tasks List </h4>
+              <h4 className='headp'> Todo's List  </h4>
 
               <TextField id="item"
-                          label="add your item"
+                          label="add objective"
                           variant="outlined"
                           name='item'  
                           size="small"
